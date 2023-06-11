@@ -1,0 +1,72 @@
+.hobby-showcase-container {
+    padding: 20px;
+}
+
+.hobby-showcase-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.hobby-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.hobby-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hobby-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.hobby-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hobby-description {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .hobby-showcase-title {
+        font-size: 28px;
+    }
+
+    .hobby-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .hobby-showcase-title {
+        font-size: 24px;
+    }
+
+    .hobby-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 5px;
+    }
+}
+

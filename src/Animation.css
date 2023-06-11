@@ -1,0 +1,88 @@
+.stylish-lander {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #2a5298;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.25rem;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #3c73b8;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1.125rem;
+    }
+
+    .key-points li {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        font-size: 1.125rem;
+        padding: 10px 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stylish-lander {
+        padding: 0 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+}

@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./Navbar";
+import AnimatedList from "./Animation";
+import SkillsShowcase from "./SkillShare";
+import ProjectShowcase from "./PersonalProject";
+import ExperienceShowcase from "./Experience";
+import HobbyShowcase from "./hobbies";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    const data = [
+        {
+            title : "I am a software engineer",
+            description : "I love to code, do you also love"
+        },
+        {
+          title: "I am a photographer",
+          description: "Previously i was bad it, but i learnt it with time"
+        },
+        {
+            title: "I love ironman",
+            description: "Do you also love ironman, if yes follow me"
+        }
+    ];
+
+    return (
+    <div className = "main-component">
+      <Navbar/>
+      <AnimatedList data={data}/>
+        <SkillsShowcase/>
+        <ProjectShowcase/>
+        <ExperienceShowcase/>
+        <HobbyShowcase/>
     </div>
   );
 }
