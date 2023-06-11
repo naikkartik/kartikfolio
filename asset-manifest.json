@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5215f739.css",
-    "main.js": "/static/js/main.099ceaad.js",
-    "static/js/787.d3dd3dac.chunk.js": "/static/js/787.d3dd3dac.chunk.js",
-    "static/media/project-1.webp": "/static/media/project-1.7e5686697a3464b4131b.webp",
-    "index.html": "/index.html",
-    "main.5215f739.css.map": "/static/css/main.5215f739.css.map",
-    "main.099ceaad.js.map": "/static/js/main.099ceaad.js.map",
-    "787.d3dd3dac.chunk.js.map": "/static/js/787.d3dd3dac.chunk.js.map"
+    "main.css": "/kartikfolio/static/css/main.5215f739.css",
+    "main.js": "/kartikfolio/static/js/main.2328be26.js",
+    "static/js/787.d3dd3dac.chunk.js": "/kartikfolio/static/js/787.d3dd3dac.chunk.js",
+    "static/media/project-1.webp": "/kartikfolio/static/media/project-1.7e5686697a3464b4131b.webp",
+    "index.html": "/kartikfolio/index.html",
+    "main.5215f739.css.map": "/kartikfolio/static/css/main.5215f739.css.map",
+    "main.2328be26.js.map": "/kartikfolio/static/js/main.2328be26.js.map",
+    "787.d3dd3dac.chunk.js.map": "/kartikfolio/static/js/787.d3dd3dac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5215f739.css",
-    "static/js/main.099ceaad.js"
+    "static/js/main.2328be26.js"
   ]
 }
